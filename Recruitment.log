@@ -1,0 +1,416 @@
+2018-11-06 12:28:38,054 [main] INFO  c.r.RecruitmentSpringBootApplication - Starting RecruitmentSpringBootApplication on DIN69000772 with PID 14484 (D:\Users\cseethin\Desktop\PROJECTS\UPDATED27022018\sample\target\classes started by cseethin in D:\Users\cseethin\Desktop\PROJECTS\UPDATED27022018\sample)
+2018-11-06 12:28:38,054 [main] INFO  c.r.RecruitmentSpringBootApplication - No active profile set, falling back to default profiles: default
+2018-11-06 12:28:38,085 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@34a3d150: startup date [Tue Nov 06 12:28:38 IST 2018]; root of context hierarchy
+2018-11-06 12:28:38,147 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+2018-11-06 12:28:38,865 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-06 12:28:38,943 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-06 12:28:38,959 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface com.recruitment.repository.ApplicationBeanRepository.
+2018-11-06 12:28:38,959 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface com.recruitment.repository.RegisterRepository.
+2018-11-06 12:28:38,959 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface com.recruitment.repository.JobsBeanRepository.
+2018-11-06 12:28:39,146 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-11-06 12:28:39,224 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dde25d05] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-06 12:28:39,520 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 1821 (http)
+2018-11-06 12:28:39,520 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-06 12:28:39,520 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Pivotal tc Runtime 3.2.8.RELEASE/8.5.23.A.RELEASE
+2018-11-06 12:28:39,919 [localhost-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-11-06 12:28:39,934 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-06 12:28:39,934 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1849 ms
+2018-11-06 12:28:40,090 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-06 12:28:40,090 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-06 12:28:40,090 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-11-06 12:28:40,090 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-06 12:28:40,090 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-11-06 12:28:40,090 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-11-06 12:28:40,262 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-11-06 12:28:40,278 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-11-06 12:28:40,309 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.11.Final}
+2018-11-06 12:28:40,309 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-11-06 12:28:40,309 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2018-11-06 12:28:40,340 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-11-06 12:28:40,544 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-11-06 12:28:40,882 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+2018-11-06 12:28:43,101 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+2018-11-06 12:28:43,148 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-11-06 12:28:43,632 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2018-11-06 12:28:43,976 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f53fc38, org.springframework.security.web.context.SecurityContextPersistenceFilter@69069866, org.springframework.security.web.header.HeaderWriterFilter@a120b9, org.springframework.security.web.csrf.CsrfFilter@7db162f2, org.springframework.security.web.authentication.logout.LogoutFilter@17003497, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@389a1e34, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64c95480, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e40fdbd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5feb82b3, org.springframework.security.web.session.SessionManagementFilter@3b7b0b57, org.springframework.security.web.access.ExceptionTranslationFilter@273293c8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@595ec862]
+2018-11-06 12:28:44,070 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@34a3d150: startup date [Tue Nov 06 12:28:38 IST 2018]; root of context hierarchy
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/registering]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.registering(com.recruitment.bean.Register,org.springframework.validation.BindingResult,org.springframework.ui.Model) throws com.recruitment.exception.RecruitmentManagementException
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Register]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.candidateRegister(org.springframework.ui.Model)
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ || /sample]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.getHome() throws java.lang.Exception
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.getLoginPage(org.springframework.ui.Model,java.lang.String,java.lang.String) throws com.recruitment.exception.RecruitmentManagementException
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/adminLogging]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.getAdmin()
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logging]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.getUserPage(org.springframework.ui.Model) throws com.recruitment.exception.RecruitmentManagementException
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Apply]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.getApplication(org.springframework.ui.Model) throws com.recruitment.exception.RecruitmentManagementException
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/applying]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.addApplicant(org.springframework.ui.Model,com.recruitment.bean.ApplicationBean,org.springframework.validation.BindingResult) throws com.recruitment.exception.RecruitmentManagementException
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/viewapplied]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.getApplications(org.springframework.ui.Model) throws com.recruitment.exception.RecruitmentManagementException
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/viewProfile]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.viewProfile(org.springframework.ui.Model)
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/viewApplications]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.applied(org.springframework.ui.Model)
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addnew]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.addNewJob(org.springframework.ui.Model)
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/adding]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.addNew(com.recruitment.bean.JobsBean,org.springframework.validation.BindingResult,org.springframework.ui.Model) throws com.recruitment.exception.RecruitmentManagementException
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/accept]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.acceptRequest(org.springframework.ui.Model,int)
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/change]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.changeStatus(org.springframework.ui.Model,int,java.lang.String,java.lang.String) throws com.recruitment.exception.RecruitmentManagementException
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/reject]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.rejectRequest(org.springframework.ui.Model,int)
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error1]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.errorPage(org.springframework.ui.Model,int,java.lang.String)
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/back]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.getBack(org.springframework.ui.Model) throws com.recruitment.exception.RecruitmentManagementException
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get/xml],methods=[GET],produces=[application/xml]}" onto public java.lang.String com.recruitment.controller.RecruitmentController.getXML()
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-11-06 12:28:44,132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-06 12:28:44,163 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in recruitmentExceptionHandler
+2018-11-06 12:28:44,179 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-06 12:28:44,648 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-11-06 12:28:44,695 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1821"]
+2018-11-06 12:28:44,742 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1821"]
+2018-11-06 12:28:44,757 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-06 12:28:44,851 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 1821 (http)
+2018-11-06 12:28:44,851 [main] INFO  c.r.RecruitmentSpringBootApplication - Started RecruitmentSpringBootApplication in 6.985 seconds (JVM running for 7.711)
+2018-11-06 12:29:32,087 [http-nio-1821-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-06 12:29:32,088 [http-nio-1821-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-11-06 12:29:32,131 [http-nio-1821-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 43 ms
+2018-11-06 12:29:32,183 [http-nio-1821-exec-1] INFO  c.r.c.RecruitmentController - getHomecalled
+2018-11-06 12:29:32,424 [http-nio-1821-exec-1] INFO  c.r.c.RecruitmentController - getHomeexiting
+2018-11-06 12:29:33,271 [http-nio-1821-exec-3] INFO  c.r.c.RecruitmentController - getLoginPagecalled
+2018-11-06 12:29:33,271 [http-nio-1821-exec-3] INFO  c.r.c.RecruitmentController - getLoginPageexiting
+2018-11-06 12:29:38,418 [http-nio-1821-exec-4] INFO  c.r.c.RecruitmentController - getLoginPagecalled
+2018-11-06 12:29:38,418 [http-nio-1821-exec-4] INFO  c.r.c.RecruitmentController - getLoginPageexiting
+2018-11-06 12:29:38,517 [http-nio-1821-exec-6] INFO  c.r.c.RecruitmentController - getLoginPagecalled
+2018-11-06 12:29:38,517 [http-nio-1821-exec-6] INFO  c.r.c.RecruitmentController - getLoginPageexiting
+2018-11-06 12:29:49,010 [http-nio-1821-exec-7] ERROR o.s.s.w.a.UsernamePasswordAuthenticationFilter - An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: null
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:126)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:144)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:174)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:124)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: null
+	at com.recruitment.service.UserDetailsServiceImpl.loadUserByUsername(UserDetailsServiceImpl.java:30)
+	at com.recruitment.service.UserDetailsServiceImpl$$FastClassBySpringCGLIB$$bd49ca96.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655)
+	at com.recruitment.service.UserDetailsServiceImpl$$EnhancerBySpringCGLIB$$4e8d9139.loadUserByUsername(<generated>)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:114)
+	... 57 common frames omitted
+2018-11-06 12:29:49,016 [http-nio-1821-exec-8] INFO  c.r.c.RecruitmentController - getLoginPagecalled
+2018-11-06 12:29:49,016 [http-nio-1821-exec-8] INFO  c.r.c.RecruitmentController - getLoginPageexiting
+2018-11-06 12:29:49,102 [http-nio-1821-exec-10] INFO  c.r.c.RecruitmentController - getLoginPagecalled
+2018-11-06 12:29:49,102 [http-nio-1821-exec-10] INFO  c.r.c.RecruitmentController - getLoginPageexiting
+2018-11-06 12:31:38,470 [http-nio-1821-exec-2] ERROR o.s.s.w.a.UsernamePasswordAuthenticationFilter - An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: null
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:126)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:144)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:174)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:124)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: null
+	at com.recruitment.service.UserDetailsServiceImpl.loadUserByUsername(UserDetailsServiceImpl.java:30)
+	at com.recruitment.service.UserDetailsServiceImpl$$FastClassBySpringCGLIB$$bd49ca96.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655)
+	at com.recruitment.service.UserDetailsServiceImpl$$EnhancerBySpringCGLIB$$4e8d9139.loadUserByUsername(<generated>)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:114)
+	... 57 common frames omitted
+2018-11-06 12:31:38,475 [http-nio-1821-exec-3] INFO  c.r.c.RecruitmentController - getLoginPagecalled
+2018-11-06 12:31:38,475 [http-nio-1821-exec-3] INFO  c.r.c.RecruitmentController - getLoginPageexiting
+2018-11-06 12:31:38,537 [http-nio-1821-exec-5] INFO  c.r.c.RecruitmentController - getLoginPagecalled
+2018-11-06 12:31:38,537 [http-nio-1821-exec-5] INFO  c.r.c.RecruitmentController - getLoginPageexiting
+2018-11-06 12:31:40,239 [http-nio-1821-exec-6] ERROR o.s.s.w.a.UsernamePasswordAuthenticationFilter - An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: null
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:126)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:144)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:174)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:124)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: null
+	at com.recruitment.service.UserDetailsServiceImpl.loadUserByUsername(UserDetailsServiceImpl.java:30)
+	at com.recruitment.service.UserDetailsServiceImpl$$FastClassBySpringCGLIB$$bd49ca96.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655)
+	at com.recruitment.service.UserDetailsServiceImpl$$EnhancerBySpringCGLIB$$4e8d9139.loadUserByUsername(<generated>)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:114)
+	... 57 common frames omitted
+2018-11-06 12:31:40,248 [http-nio-1821-exec-7] INFO  c.r.c.RecruitmentController - getLoginPagecalled
+2018-11-06 12:31:40,248 [http-nio-1821-exec-7] INFO  c.r.c.RecruitmentController - getLoginPageexiting
+2018-11-06 12:31:40,302 [http-nio-1821-exec-9] INFO  c.r.c.RecruitmentController - getLoginPagecalled
+2018-11-06 12:31:40,302 [http-nio-1821-exec-9] INFO  c.r.c.RecruitmentController - getLoginPageexiting
+2018-11-06 12:31:41,122 [http-nio-1821-exec-10] INFO  c.r.c.RecruitmentController - candidateRegistercalled
+2018-11-06 12:31:41,123 [http-nio-1821-exec-10] INFO  c.r.c.RecruitmentController - candidateRegisterexiting
+2018-11-06 12:31:41,669 [http-nio-1821-exec-2] INFO  c.r.c.RecruitmentController - getLoginPagecalled
+2018-11-06 12:31:41,669 [http-nio-1821-exec-2] INFO  c.r.c.RecruitmentController - getLoginPageexiting
+2018-11-06 12:32:36,808 [http-nio-1821-exec-3] INFO  c.r.c.RecruitmentController - registeringcalled
+2018-11-06 12:32:36,968 [http-nio-1821-exec-3] INFO  c.r.c.RecruitmentController - registeringexiting
+2018-11-06 12:32:37,057 [http-nio-1821-exec-5] INFO  c.r.c.RecruitmentController - getLoginPagecalled
+2018-11-06 12:32:37,057 [http-nio-1821-exec-5] INFO  c.r.c.RecruitmentController - getLoginPageexiting
+2018-11-06 12:32:46,636 [http-nio-1821-exec-7] INFO  c.r.c.RecruitmentController - getUserPagecalled
+2018-11-06 12:32:46,649 [http-nio-1821-exec-7] INFO  c.r.c.RecruitmentController - getUserPageexiting
+2018-11-06 12:32:49,110 [http-nio-1821-exec-9] INFO  c.r.c.RecruitmentController - viewProfilecalled
+2018-11-06 12:32:49,122 [http-nio-1821-exec-9] INFO  c.r.c.RecruitmentController - viewProfileexiting
+2018-11-06 12:32:56,639 [http-nio-1821-exec-10] INFO  c.r.c.RecruitmentController - getUserPagecalled
+2018-11-06 12:32:56,651 [http-nio-1821-exec-10] INFO  c.r.c.RecruitmentController - getUserPageexiting
+2018-11-06 12:33:03,545 [http-nio-1821-exec-2] INFO  c.r.c.RecruitmentController - getLoginPagecalled
+2018-11-06 12:33:03,546 [http-nio-1821-exec-2] INFO  c.r.c.RecruitmentController - getLoginPageexiting
+2018-11-06 12:33:12,446 [http-nio-1821-exec-3] ERROR o.s.s.w.a.UsernamePasswordAuthenticationFilter - An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: null
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:126)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:144)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:174)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:124)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: null
+	at com.recruitment.service.UserDetailsServiceImpl.loadUserByUsername(UserDetailsServiceImpl.java:30)
+	at com.recruitment.service.UserDetailsServiceImpl$$FastClassBySpringCGLIB$$bd49ca96.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655)
+	at com.recruitment.service.UserDetailsServiceImpl$$EnhancerBySpringCGLIB$$4e8d9139.loadUserByUsername(<generated>)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:114)
+	... 57 common frames omitted
+2018-11-06 12:33:12,452 [http-nio-1821-exec-4] INFO  c.r.c.RecruitmentController - getLoginPagecalled
+2018-11-06 12:33:12,452 [http-nio-1821-exec-4] INFO  c.r.c.RecruitmentController - getLoginPageexiting
+2018-11-06 12:33:14,818 [http-nio-1821-exec-5] INFO  c.r.c.RecruitmentController - getLoginPagecalled
+2018-11-06 12:33:14,818 [http-nio-1821-exec-5] INFO  c.r.c.RecruitmentController - getLoginPageexiting
+2018-11-06 12:33:15,384 [http-nio-1821-exec-7] INFO  c.r.c.RecruitmentController - getLoginPagecalled
+2018-11-06 12:33:15,384 [http-nio-1821-exec-7] INFO  c.r.c.RecruitmentController - getLoginPageexiting
+2018-11-06 12:33:16,058 [http-nio-1821-exec-8] INFO  c.r.c.RecruitmentController - candidateRegistercalled
+2018-11-06 12:33:16,058 [http-nio-1821-exec-8] INFO  c.r.c.RecruitmentController - candidateRegisterexiting
+2018-11-06 12:33:19,217 [http-nio-1821-exec-9] INFO  c.r.c.RecruitmentController - getXMLcalled
+2018-11-06 12:33:19,218 [http-nio-1821-exec-9] INFO  c.r.c.RecruitmentController - getXMLexiting
+2018-11-06 12:33:22,585 [http-nio-1821-exec-10] INFO  c.r.c.RecruitmentController - candidateRegistercalled
+2018-11-06 12:33:22,585 [http-nio-1821-exec-10] INFO  c.r.c.RecruitmentController - candidateRegisterexiting
+2018-11-06 12:33:23,890 [http-nio-1821-exec-1] INFO  c.r.c.RecruitmentController - getLoginPagecalled
+2018-11-06 12:33:23,890 [http-nio-1821-exec-1] INFO  c.r.c.RecruitmentController - getLoginPageexiting
